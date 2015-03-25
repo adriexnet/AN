@@ -1,0 +1,10 @@
+<div ng-controller="OptionListCtrl">
+	APP TEST OPTION LIST
+	<hr/>
+	<div ng-repeat="item in users track by $index">
+		<span class="glyphicon glyphicon-remove-circle pull-right" ng-click="remove($index)"></span>
+		<p>Id: {{item.id}}</p>
+		<p>Nombre: {{item.name}}</p>		
+		<hr/>
+	</div>
+</div>

@@ -1,0 +1,25 @@
+<div ng-controller="OptionAddCtrl">
+	APP TEST OPTION ADD
+	<hr/>
+	<md-content>
+		<md-input-container md-no-float>
+			<input ng-model="user.name" type="text" placeholder="Name">
+		</md-input-container>
+		<md-input-container md-no-float>
+			<input ng-model="user.phone" type="text" placeholder="Phone Number">
+		</md-input-container>
+		<md-input-container md-no-float>
+			<input ng-model="user.email" type="email" placeholder="Email">
+		</md-input-container>
+		<md-input-container md-no-float>
+			<input ng-model="user.address" type="text" placeholder="Address">
+		</md-input-container>		
+	</md-content>
+	Current values
+	<hr/>
+	<md-content>
+		<p>
+			{{user}}
+		</p>
+	</md-content>
+</div>
